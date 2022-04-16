@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Practice Box Model</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        #box{
+            background-color: rgb(255, 251, 248);
+            margin: 30px;
+            padding: 8px;
+            border: 3px solid black;
+            box-sizing: border-box;
+            height: 180px;
+            overflow: auto;
+        }
+        #content{
+            background-color: orange;
+        }
+        h1{
+            margin: 20px;
+            text-align: center;
+        }
+        #p2{
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace
+        }
+        #p1{
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 25px;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model For Practice</h1>
+    <div id="box">
+        <div id="content">
+            <p id="p1">In this document almost all the properties of the box model lectures not the background property leactures are used.</p>
+            <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, voluptatum! Qui possimus sapiente voluptatem ipsam ex aliquid at omnis labore odit. Minima atque quaerat repellendus numquam labore voluptate incidunt cum.</p>
+        </div>
+    </div>
+</body>
+</html>
