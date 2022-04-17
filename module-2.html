@@ -26,7 +26,6 @@
 		}
 		section{ 
 			margin: 0px;
-			
 			width: 75px;
 			height: px;
 			float: right ;
@@ -44,6 +43,18 @@
 			background-color: rgb(241, 241, 135);
 			color: black;
 		}
+		/* #a1{
+			float: none;
+			width: 75%;
+		}
+		#a2{
+			float: none;
+			width: 75%;
+		}
+		#a3{
+			float: none;
+			width: 75%;
+		} */
 		/*a nth-child(1){
 			float: right;
 			height: 15px;
@@ -71,31 +82,49 @@
     border: 1px black;
   }
   .col-md-1 {
-    width: 31%;
+    width: 45%;
   }
   .col-md-2 {
-    width: 31%;
+    width: 45%;
   }
   .col-md-3 {
-    width: 31%;
+    width: 45%;
+  }
+  #a3{
+	  width: 94.5%;
   }
 }
+@media(max-width: 991px){
+	.col-xs-1, .col-xs-2, .col-xs-3{
+		float: left;
+	}
+		.col-xs-1 {
+    		width: 95%;
+  		}
+  		.col-xs-2 {
+   			 width: 95%;
+  		}
+  		.col-xs-3 {
+    		width: 95%;
+  		}
+	}
+
 	</style>
 </head>
 <body>
 	<h1>Our Menu</h1>
-	<a class="col-lg-1 col-md-3">
+	<a class="col-lg-1 col-md-3 col-xs-1" id="a1">
 		<section class="p1">Chicken</section>
 		<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.
 		
 	</a>
-	<a class="col-lg-1 col-md-3">
+	<a class="col-lg-1 col-md-3 col-xs-1" id="a2">
 		<section class="p2">Beef</section>
 		
 		<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.
 		
 	</a>
-	<a class="col-lg-1 col-md-3">
+	<a class="col-lg-1 col-md-3 col-xs-1" id="a3">
 		<section class="p3">Sushi</section>
 		<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.
 		
